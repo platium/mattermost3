@@ -18,7 +18,7 @@
           "protocol": "tcp",
           "domain": "${domain}",
           "port_int": "8065",
-          "port_ext": "8086"
+          "port_ext": "8088"
         }
       ]
     }
