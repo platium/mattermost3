@@ -26,8 +26,7 @@
   "peer-criteria": [
     {
       "name": "mattermost",
-      "max-price": "50",
-      
+      "max-price": "50"      
     }
   ],
   "configuration": {
@@ -60,12 +59,6 @@
       "type": "enum",
       "default": "SMALL",
       "validation": "TINY,SMALL,MEDIUM,LARGE,HUGE"
-    },
-    "maxPrice": {
-      "description": "Enter the max price",
-      "type": "int",
-      "default": "5.5",
-      "validation": "\\d+"
     },
     "domain": {
       "description": "Enter your domain name",
