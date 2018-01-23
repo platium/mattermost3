@@ -2,13 +2,13 @@
 	"name": "${environmentName}",
 	"description": "Subutai Mattermost",
 	"containers": [{
-			"name": "mysql",
+			"hostname": "mysql",
 			"template": "mysql@280dcda67a67d071970ff838d0331c33c0c04710",
 			"peer-criteria": "mattermost",
 			"size": "${dbcontainertype}"
 		},
 		{
-			"name": "mattermost",
+			"hostname": "mattermost",
 			"template": "mattermost@280dcda67a67d071970ff838d0331c33c0c04710",
 			"peer-criteria": "mattermost",
 			"size": "${mattermostcontainertype}",
