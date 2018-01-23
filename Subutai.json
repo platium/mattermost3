@@ -1,7 +1,7 @@
 {
   "name": "${environmentName}",
   "description": "Subutai Mattermost",
-  "nodes": [
+  "containers": [
     {
       "hostname": "mysql",
       "template": "mysql@280dcda67a67d071970ff838d0331c33c0c04710",
