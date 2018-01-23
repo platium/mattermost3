@@ -26,7 +26,7 @@
   "peer-criteria": [
     {
       "name": "mattermost",
-      "max-price": "50",
+      "max-price": "${maxPrice}",
       
     }
   ],
@@ -70,7 +70,7 @@
     "maxPrice": {
       "description": "Enter the max price",
       "type": "int",
-      "default": "5.5",
+      "default": "50",
       "validation": "\\d+"
     },
     "domain": {
