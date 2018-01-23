@@ -70,7 +70,7 @@
       "description": "Enter your domain name",
       "type": "string",
       "default": "mattermost.envs.subutai.cloud",
-      "validation": "[a-zA-Z0-9.]+"
+      "validation": "[a-zA-Z0-9.-]+"
     },
     "environmentName": {
       "description": "Enter your environment name",
