@@ -33,12 +33,6 @@
   "configuration": {
     "source-url": "https://github.com/platium/mattermost/archive/master.zip",
     "ansible-playbook": "main.yml",
-    "arguments": [
-      {
-        "key": "key1",
-        "value": "value1"
-      }
-    ],
     "groups": [
       {
         "name": "db",
